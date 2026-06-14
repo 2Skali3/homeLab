@@ -1,0 +1,47 @@
+# Private Documentation
+docs/private/
+
+# Credentials
+*.pem
+*.key
+*.p12
+*.pfx
+
+# SSH
+id_rsa
+id_ed25519
+authorized_keys
+
+# Environment Files
+.env
+.env.*
+
+# Cloudflare
+cloudflared.yml
+cert.pem
+
+# Backups
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.zip
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary Files
+tmp/
+temp/
+
+# Terraform (future-proofing)
+.terraform/
+terraform.tfstate*
