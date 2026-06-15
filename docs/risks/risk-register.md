@@ -20,6 +20,7 @@ Risks should be reviewed after major infrastructure changes and at the completio
 | R-002 | Single SSD failure on production server | High     | Medium     | High     | Open              |
 | R-003 | Aging production hardware               | Medium   | Medium     | Medium   | Monitoring        |
 | R-004 | Services not documented                 | Medium   | Medium     | Medium   | In Progress       |
+| R-005 | Configuration drift                     | Medium   | Medium     | Medium   | Open              |
 
 ---
 
@@ -115,3 +116,29 @@ Update documentation whenever a new service is deployed.
 | Date    | Notes                                        |
 | ------- | -------------------------------------------- |
 | 2026-06 | Initial risk register created during Phase 0 |
+
+___
+
+### R-005 — Configuration Drift
+
+#### Description
+
+Changes made directly on systems may not be reflected in documentation or version control.
+
+#### Impact
+
+- Inconsistent environments
+- Lost operational knowledge
+- Difficult troubleshooting
+- Reproducibility challenges
+
+#### Current Controls
+
+- Documentation repository
+- Audit process
+
+#### Planned Mitigation
+
+- Infrastructure as Code where practical
+- Documentation updates after major changes
+- Git-based configuration management
