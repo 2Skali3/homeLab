@@ -22,11 +22,29 @@ Document the intended future architecture.
 
 Aspire 5738G
 
+#### Infrastructure Layer
+
+Examples:
+
+- WireGuard
+- Pi-hole
+- Monitoring
+
+#### Platform Layer
+
+Examples:
+
+- Docker
+- Reverse Proxy
+
+#### Application Layer
+
 Examples:
 
 - Minecraft
+- Nextcloud
+- Immich
 - Future Services
-- Reverse Proxy
 
 ### Lab Environment
 
