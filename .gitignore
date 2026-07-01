@@ -1,0 +1,2 @@
+docs/runbooks/private/*
+!docs/runbooks/private/.gitkeep
